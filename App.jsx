@@ -7,12 +7,14 @@ import {
   Tooltip,
   ResponsiveContainer,
   CartesianGrid,
-  BarChart,
-  Bar,
-  Legend,
-  PieChart,
-  Pie,
-  Cell,
+  // usar as libs globais (sem import)
+const { useEffect, useMemo, useState } = React;
+const { createRoot } = ReactDOM;
+const {
+  LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid,
+  BarChart, Bar, Legend, PieChart, Pie, Cell, RadialBarChart, RadialBar
+} = Recharts;
+
   RadialBarChart,
   RadialBar
 } from "recharts";
