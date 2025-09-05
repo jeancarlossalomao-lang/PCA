@@ -10,7 +10,7 @@ Aplicação React de página única para visualizar o Plano de Contratações An
 
 ## Consulta ao PNCP
 A API base é `https://pncp.gov.br/pncp-consulta`. As datas devem ser informadas no formato `AAAAmmdd`.
-A documentação dos endpoints pode ser explorada em [https://pncp.gov.br/api/consulta/swagger-ui/index.html](https://pncp.gov.br/api/consulta/swagger-ui/index.html).
+A documentação dos endpoints pode ser explorada no [Swagger do PNCP](https://pncp.gov.br/api/consulta/swagger-ui/index.html).
 
 Exemplo de chamada:
 ```
