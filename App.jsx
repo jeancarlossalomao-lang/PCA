@@ -1,5 +1,8 @@
-import React, { useEffect, useMemo, useState } from "react";
-import {
+import { quoteCSV } from "./csv.js";
+
+// usar as libs globais (sem import)
+const { useEffect, useMemo, useState } = React;
+const {
   LineChart,
   Line,
   XAxis,
@@ -7,18 +10,15 @@ import {
   Tooltip,
   ResponsiveContainer,
   CartesianGrid,
-  // usar as libs globais (sem import)
-const { useEffect, useMemo, useState } = React;
-const { createRoot } = ReactDOM;
-const {
-  LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid,
-  BarChart, Bar, Legend, PieChart, Pie, Cell, RadialBarChart, RadialBar
-} = Recharts;
-
+  BarChart,
+  Bar,
+  Legend,
+  PieChart,
+  Pie,
+  Cell,
   RadialBarChart,
-  RadialBar
-} from "recharts";
-import { quoteCSV } from "./csv.js";
+  RadialBar,
+} = Recharts;
 
 /**
  * PCA UFR – Painel moderno (single-file React)
