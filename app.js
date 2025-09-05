@@ -27002,9 +27002,7 @@ Take a look at the reducer(s) handling this action type: ${action.type}.
     a2.remove();
     URL.revokeObjectURL(url);
   }
-  import_react_dom.default
-    .createRoot(document.getElementById("root"))
-    .render(/* @__PURE__ */ import_react58.default.createElement(App));
+  ReactDOM.render(/* @__PURE__ */ import_react58.default.createElement(App), document.getElementById("root"));
 })();
 /*! Bundled license information:
 
