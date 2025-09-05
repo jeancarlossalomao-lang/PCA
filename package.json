@@ -4,5 +4,10 @@
   "type": "module",
   "scripts": {
     "test": "node test.mjs"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.12.1"
   }
 }
