@@ -1,27 +1,9 @@
-# Painel de Contratações da UFR
+# PCA UFR – Painel (GitHub Pages)
+- Single-file React SPA (app.js + index.html).
+- DEMO offline e opção LIVE (PNCP).
+- Publicação: Settings → Pages → Deploy from branch → main / (root).
 
-Aplicação React de página única para visualizar o Plano de Contratações Anual (PCA) da UFR.
-
-## Uso
-1. Faça build com seu bundler favorito (ex.: Vite) e sirva `index.html`.
-2. O painel possui dois modos de dados:
-   - **DEMO**: usa dados fictícios e funciona offline.
-   - **LIVE**: consulta a API pública do PNCP.
-
-## Consulta ao PNCP
-A API base é `https://pncp.gov.br/pncp-consulta`. As datas devem ser informadas no formato `AAAAmmdd`.
-
-Exemplo de chamada:
-```
-https://pncp.gov.br/pncp-consulta/v1/contratos?dataInicial=20240101&dataFinal=20240131&pagina=1&tamanhoPagina=10
-```
-No painel, ajuste o UASG e o ano conforme necessário e altere o modo para **LIVE** para usar a API.
-
-## Desenvolvimento
-O componente principal está em `App.jsx` e funções utilitárias em `csv.js`.
-
-### Testes
-Execute:
-```
-npm test
-```
+## Rodando local
+Sem build:
+1) Salve `index.html` e `app.js` na raiz.
+2) Abra `index.html` pelo GitHub Pages ou sirva com um server estático.
