@@ -1,3 +1,9 @@
-# Painel de Contratações da UFR
+# PCA UFR – Painel (GitHub Pages)
+- Single-file React SPA (app.js + index.html).
+- DEMO offline e opção LIVE (PNCP).
+- Publicação: Settings → Pages → Deploy from branch → main / (root).
 
-Projeto simples com um painel de vagas para a UFR. Abra o arquivo `index.html` em um navegador para visualizar as vagas carregadas a partir de `jobs.json`.
+## Rodando local
+Sem build:
+1) Salve `index.html` e `app.js` na raiz.
+2) Abra `index.html` pelo GitHub Pages ou sirva com um server estático.

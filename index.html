@@ -1,18 +1,17 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Painel de Contratações da UFR</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Painel de Contratações da UFR</h1>
-    <table id="jobs">
-        <thead>
-            <tr><th>Cargo</th><th>Departamento</th><th>Prazo</th></tr>
-        </thead>
-        <tbody></tbody>
-    </table>
-    <script src="script.js"></script>
-</body>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Painel de Contratações – UFR</title>
+    <meta name="color-scheme" content="light" />
+    <!-- Tailwind via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-50">
+    <div id="root"></div>
+    <!-- App SPA -->
+    <script type="module" src="./app.js"></script>
+  </body>
 </html>
+
